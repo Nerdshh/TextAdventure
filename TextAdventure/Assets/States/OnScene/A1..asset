@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c3f728d5acd2042ad405357f7611dd, type: 3}
+  m_Name: A1.
+  m_EditorClassIdentifier: 
+  storyText: 'The odor of cigarettes and cat litter assaults your nose as you enter
+    the apartment. Dirty laundry and trash decorate every inch of the floor. You
+    find your patient sitting on a pile of clothes on the floor. He appears to be
+    pale and diaphoretic.
+
+    
+
+    What is your first action:
+
+    
+
+    1.
+    Ask the patient if he can walk to the gurney.
+
+    
+
+    2. Put the patient
+    on the monitor and obtain baseline vital signs.'
+  nextStates:
+  - {fileID: 11400000, guid: 6bec0d005e35bb64ebd6dd9988f5e5e6, type: 2}
+  - {fileID: 11400000, guid: 87fbabb06cbca2548a37fce175e46952, type: 2}

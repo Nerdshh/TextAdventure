@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c3f728d5acd2042ad405357f7611dd, type: 3}
+  m_Name: A5.
+  m_EditorClassIdentifier: 
+  storyText: 'You notice panic on Kevin''s face. He tells you, "I don''t feel so
+    good". Immediately after he loses consciousness and becomes unresponsive.
+
+    
+
+    What
+    is your next action:
+
+    
+
+    1. Check for a pulse.
+
+    
+
+    2. Tell
+    Kevin to stop "playing possum".'
+  nextStates:
+  - {fileID: 11400000, guid: bf4af21acbad8b5448650e14f82cc1d8, type: 2}
+  - {fileID: 11400000, guid: f6646a1ff08ccc444a5ae8b761be1715, type: 2}

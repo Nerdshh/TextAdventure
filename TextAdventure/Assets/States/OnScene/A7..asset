@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c3f728d5acd2042ad405357f7611dd, type: 3}
+  m_Name: A7.
+  m_EditorClassIdentifier: 
+  storyText: 'You go straight to the carotid and feel for a pulse, but are unable
+    to find one. Suddenly it seems like trying to walk him to the gurney was a bad
+    idea.
+
+    
+
+    What is your next action:
+
+    
+
+    1. Begin CPR.
+
+    
+
+    2.
+    Get the BVM out and start to ventilate Kevin.'
+  nextStates:
+  - {fileID: 11400000, guid: 2d5ac995314ecad46968d1b383868b16, type: 2}
+  - {fileID: 11400000, guid: f6646a1ff08ccc444a5ae8b761be1715, type: 2}

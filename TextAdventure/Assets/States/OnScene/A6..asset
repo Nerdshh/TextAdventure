@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c3f728d5acd2042ad405357f7611dd, type: 3}
+  m_Name: A6.
+  m_EditorClassIdentifier: 
+  storyText: 'He chews up the Aspirin and quietly mutters a complaint about the taste.
+    "My chest pain is getting worse", Kevin tells you.
+
+    
+
+    What is your
+    next action:
+
+    
+
+    1. Bring the gurney in and get Kevin to the ambulance.'
+  nextStates:
+  - {fileID: 11400000, guid: e56dac99be2662045828abf299f59e02, type: 2}

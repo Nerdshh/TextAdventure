@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c3f728d5acd2042ad405357f7611dd, type: 3}
+  m_Name: A0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: "Welcome to Text Adventure! \n\nIn this game you will be challenged
+    with a FAKE medical call. It is your objective to safetly transport the patient
+    to the hospital ALIVE.\n\nPress '1' to begin.\n\nPress 'q' to quit at any time."
+  nextStates:
+  - {fileID: 11400000, guid: d65a1b35a686af844856558821ae6541, type: 2}
